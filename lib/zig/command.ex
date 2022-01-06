@@ -184,7 +184,19 @@ defmodule Zig.Command do
     "zig-macos-x86_64-0.8.1.tar.xz" => "16b0e1defe4c1807f2e128f72863124bffdd906cefb21043c34b673bf85cd57f",
     "zig-macos-aarch64-0.8.1.tar.xz"	=> "5351297e3b8408213514b29c0a938002c5cf9f97eee28c2f32920e1227fd8423",
     "zig-windows-i386-0.8.1.zip" => "099605051eb0452a947c8eab8fbbc7e43833c8376d267e94e41131c289a1c535",
-    "zig-windows-x86_64-0.8.1.zip" => "43573db14cd238f7111d6bdf37492d363f11ecd1eba802567a172f277d003926"
+    "zig-windows-x86_64-0.8.1.zip" => "43573db14cd238f7111d6bdf37492d363f11ecd1eba802567a172f277d003926",
+
+    "zig-linux-x86_64-0.9.0.tar.xz" => "5c55344a877d557fb1b28939785474eb7f4f2f327aab55293998f501f7869fa6",
+    "zig-linux-i386-0.9.0.tar.xz" => "b0dcf688349268c883292acdd55eaa3c13d73b9146e4b990fad95b84a2ac528b",
+    "zig-linux-riscv64-0.9.0.tar.xz" => "85466de07504767ed37f59782672ad41bbdf43d6480fafd07f45543278b07620",
+    "zig-linux-aarch64-0.9.0.tar.xz" => "1524fedfdbade2dbc9bae1ed98ad38fa7f2114c9a3e94da0d652573c75efbc5a",
+    "zig-linux-armv7a-0.9.0.tar.xz" => "50225dee6e6448a63ee96383a34d9fe3bba34ae8da1a0c8619bde2cdfc1df87d",
+    "zig-macos-x86_64-0.9.0.tar.xz" => "c5280eeec4d6e5ea5ce5b448dc9a7c4bdd85ecfed4c1b96aa0835e48b36eccf0",
+    "zig-macos-aarch64-0.9.0.tar.xz" => "3991c70594d61d09fb4b316157a7c1d87b1d4ec159e7a5ecd11169ff74cad832",
+    "zig-windows-x86_64-0.9.0.zip" => "084ea2646850aaf068234b0f1a92b914ed629be47075e835f8a67d55c21d880e",
+    "zig-windows-i386-0.9.0.zip" => "bb839434afc75092015cf4c33319d31463c18512bc01dd719aedf5dcbc368466",
+    "zig-windows-aarch64-0.9.0.zip" => "f9018725e3fb2e8992b17c67034726971156eb190685018a9ac8c3a9f7a22340",
+    "zig-freebsd-x86_64-0.9.0.tar.xz" => "c95afe679b7cc4110dc2ecd3606c83a699718b7a958d6627f74c20886333e194",
   }
 
   defp download_zig_archive(zig_download_path, version, archive) do
